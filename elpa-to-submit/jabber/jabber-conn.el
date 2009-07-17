@@ -96,7 +96,7 @@ Third item is the send function.")
       (setq *jabber-connection* 
 	    (open-network-stream
 	     "jabber"
-	     jabber-process-buffer
+             (get-buffer-create jabber-process-buffer)
 	     (or jabber-network-server jabber-server)
 	     (or jabber-port 5222)))))
 
@@ -124,7 +124,7 @@ Third item is the send function.")
       (setq *jabber-connection*
 	    (funcall connect-function
 		     "jabber"
-		     jabber-process-buffer
+                     (get-buffer-create jabber-process-buffer)
 		     (or jabber-network-server jabber-server)
 		     (or jabber-port 5223)))))
 
