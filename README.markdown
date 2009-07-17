@@ -6,7 +6,7 @@ working environment for anyone using Emacs for dynamic languages. The
 main advantage of the Starter Kit is that it provides better default
 settings and bundles many useful libraries.
 
-The latest version is at http://github.com/technomancy/emacs-starter-kit/
+This version is at http://github.com/bradleybuda/emacs-starter-kit/
 
 ## Learning
 
